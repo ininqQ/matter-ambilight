@@ -24,7 +24,7 @@ Your room lights follow the colors on your screen — like Philips Hue Sync, but
 
 ## Quick start
 
-1. Download the project (**Code → Download ZIP**) and unzip it anywhere, or `git clone` it.
+1. Download the latest release from the [**Releases**](https://github.com/ininqQ/matter-ambilight/releases/latest) page (**Source code (zip)**) and unzip it anywhere — or `git clone` the repository.
 2. Double-click **`Ambilight.bat`**. On the first launch it installs everything it needs and starts the setup wizard.
 3. In the wizard, enter a pairing code for each lamp (see below), pick where the lamp is and which monitor you watch movies on.
 4. Done. From now on just double-click **`Ambilight.bat`**. To stop, press **Ctrl+C** or close the window — the lamps return to their previous light.
