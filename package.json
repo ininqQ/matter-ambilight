@@ -1,0 +1,40 @@
+{
+  "name": "matter-ambilight",
+  "version": "1.0.0",
+  "description": "Ambilight for Matter smart lamps on Windows: room lights follow the colors on your screen, plus an optional glow on a second monitor. Lamps stay in Apple Home / Google Home (Matter multi-admin).",
+  "private": true,
+  "type": "module",
+  "main": "ambilight.mjs",
+  "scripts": {
+    "start": "node ambilight.mjs start",
+    "setup": "node ambilight.mjs setup",
+    "preview": "node ambilight.mjs preview",
+    "glow": "node ambilight.mjs glow",
+    "test-lamps": "node ambilight.mjs test",
+    "list": "node ambilight.mjs list",
+    "doctor": "node ambilight.mjs doctor"
+  },
+  "keywords": [
+    "matter",
+    "ambilight",
+    "smart-home",
+    "homekit",
+    "apple-home",
+    "google-home",
+    "screen-sync",
+    "bias-lighting",
+    "windows"
+  ],
+  "license": "MIT",
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@matter/main": "^0.18.0",
+    "@project-chip/matter.js": "^0.18.0",
+    "node-screenshots": "^0.2.8"
+  }
+}

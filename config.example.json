@@ -1,0 +1,30 @@
+{
+    "language": "auto",
+    "monitor": "primary",
+    "fps": 20,
+    "maxUpdatesPerSecond": 10,
+    "transition": 0.1,
+    "smoothing": 0.15,
+    "saturationBoost": 1.5,
+    "minBrightness": 3,
+    "maxBrightness": 100,
+    "brightnessGamma": 0.7,
+    "networkInterface": null,
+    "preferIpv4": true,
+    "capture": "auto",
+    "lamps": [
+        { "nodeId": "1", "name": "Above me", "zone": "all", "endpoint": 1 },
+        { "nodeId": "2", "name": "Left", "zone": "left", "endpoint": 1 },
+        { "nodeId": "3", "name": "Right", "zone": "right", "endpoint": 1 }
+    ],
+    "glow": {
+        "enabled": true,
+        "monitor": "auto",
+        "edge": 0.3,
+        "blur": 45,
+        "brightness": 1.0,
+        "saturation": 1.3,
+        "fade": 0.85,
+        "smoothing": 0.3
+    }
+}

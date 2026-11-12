@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Matter credentials for YOUR lamps — never commit this
+.matter-storage/
+
+# Browser profile used by the second-monitor glow
+.glow-browser/
+
+# Personal settings (copy config.example.json if you want to start from a template)
+config.json
+
+# Logs
+*.log
+npm-debug.log*
